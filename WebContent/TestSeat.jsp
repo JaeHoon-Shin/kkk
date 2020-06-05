@@ -1,0 +1,126 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="seat-list" style="margin: 0px 0px 0px 50px; position: absolute;">
+
+			<span style="position: absolute; 
+			 	  border: 0px solid rgb(194, 194, 194); 
+	        	 background: transparent; 
+	         color: rgb(150, 150, 150); 
+	         top: 58px; left: 0px; 
+	         text-align: center; 
+	         font-size: 12px; 
+	         line-height: 20px; 
+	         width: 24px; 
+	         height: 24px; 
+	         display: block; 
+	         vertical-align: middle; 
+	         margin: 6px 0px 0px;">A</span>
+	         
+	         <span style="position: absolute; border: 0px solid rgb(194, 194, 194); 
+	         			  background: transparent; color: rgb(150, 150, 150); 
+	         			  top: 86px; left: 0px; text-align: center; font-size: 12px; 
+	         			  line-height: 20px; width: 24px; height: 24px; display: block; 
+	         			  vertical-align: middle; margin: 6px 0px 0px;">B</span>
+	         			  
+	         			  
+	         <span style="position: absolute; border: 0px solid rgb(194, 194, 194); 
+	         			  background: transparent; color: rgb(150, 150, 150); 
+	         			  top: 114px; left: 0px; text-align: center; 
+	         			  font-size: 12px; line-height: 20px; width: 24px; 
+	         			  height: 24px; display: block; vertical-align: middle; 
+	         			  margin: 6px 0px 0px;">C</span><span style="position: absolute; 
+	         			  border: 0px solid rgb(194, 194, 194); background: transparent; 
+	         			  color: rgb(150, 150, 150); top: 142px; left: 0px; text-align: center; 
+	         			  font-size: 12px; line-height: 20px; width: 24px; height: 24px; 
+	         			  display: block; vertical-align: middle; margin: 6px 0px 0px;">D</span>
+	         			  
+	         			  <span style="position: absolute; border: 0px solid rgb(194, 194, 194); background: transparent; color: rgb(150, 150, 150); top: 170px; left: 0px; text-align: center; font-size: 12px; line-height: 20px; width: 24px; height: 24px; display: block; vertical-align: middle; margin: 6px 0px 0px;">E</span><span style="position: absolute; border: 0px solid rgb(194, 194, 194); background: transparent; color: rgb(150, 150, 150); top: 198px; left: 0px; text-align: center; font-size: 12px; line-height: 20px; width: 24px; height: 24px; display: block; vertical-align: middle; margin: 6px 0px 0px;">F</span><span class="seat-right" style="position: absolute; border: 0px solid rgb(194, 194, 194); top: 226px; left: 0px; text-align: center; width: 25px; height: 25px; display: block; vertical-align: middle; margin: 2px 0px 0px;"></span>
+	         			  
+	         			  <button id="SEAT_IDX_0" class="child dis" title="A01" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 58px; left: 28px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A01</button>
+	         			  <button id="SEAT_IDX_1" class="child dis" title="A02" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 58px; left: 56px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A02</button>
+	         			  <button id="SEAT_IDX_2" class="child dis" title="A03" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 58px; left: 84px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A03</button>
+	         			  <button id="SEAT_IDX_3" class="child" title="A04" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 58px; left: 112px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A04</button>
+	         			  <button id="SEAT_IDX_4" class="child dis" title="A05" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 58px; left: 140px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A05</button>
+	         			  <button id="SEAT_IDX_5" class="child" title="A06" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 58px; left: 168px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A06</button>
+	         			  <button id="SEAT_IDX_6" class="child dis" title="A07" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 58px; left: 224px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A07</button>
+	         			  <button id="SEAT_IDX_7" class="child" title="A08" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 58px; left: 252px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A08</button>
+	         			  <button id="SEAT_IDX_8" class="child dis" title="A09" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 58px; left: 280px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A09</button>
+	         			  <button id="SEAT_IDX_9" class="child" title="A10" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 58px; left: 308px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A10</button>
+	         			  <button id="SEAT_IDX_10" class="child dis" title="A11" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 58px; left: 336px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">A11</button>
+	         			  <button id="SEAT_IDX_11" class="child" title="A12" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); top: 58px; left: 364px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle; color: rgb(255, 255, 255);">A12</button>
+	         			 
+	         			  <button id="SEAT_IDX_12" class="child" title="B01" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 86px; left: 28px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B01</button>
+	         			  <button id="SEAT_IDX_13" class="child dis" title="B02" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 86px; left: 56px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B02</button>
+	         			  <button id="SEAT_IDX_14" class="child" title="B03" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 86px; left: 84px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B03</button>
+	         			  <button id="SEAT_IDX_15" class="child dis" title="B04" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 86px; left: 112px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B04</button>
+	         			  <button id="SEAT_IDX_16" class="child" title="B05" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 86px; left: 140px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B05</button>
+	         			  <button id="SEAT_IDX_17" class="child dis" title="B06" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 86px; left: 168px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B06</button>
+	         			  <button id="SEAT_IDX_18" class="child" title="B07" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 86px; left: 224px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B07</button>
+	         			  <button id="SEAT_IDX_19" class="child dis" title="B08" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 86px; left: 252px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B08</button>
+	         			  <button id="SEAT_IDX_20" class="child" title="B09" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 86px; left: 280px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B09</button>
+	         			  <button id="SEAT_IDX_21" class="child dis" title="B10" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 86px; left: 308px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B10</button>
+	         			  <button id="SEAT_IDX_22" class="child" title="B11" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 86px; left: 336px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B11</button>
+	         			  <button id="SEAT_IDX_23" class="child dis" title="B12" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 86px; left: 364px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">B12</button>
+	         			  
+	         			  <button id="SEAT_IDX_24" class="child dis" title="C01" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 28px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C01</button>
+	         			  <button id="SEAT_IDX_25" class="child dis" title="C02" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 56px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C02</button>
+	         			  <button id="SEAT_IDX_26" class="child dis" title="C03" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 84px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C03</button>
+	         			  <button id="SEAT_IDX_27" class="child dis" title="C04" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 112px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C04</button>
+	         			  <button id="SEAT_IDX_28" class="child dis" title="C05" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 140px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C05</button>
+	         			  <button id="SEAT_IDX_29" class="child dis" title="C06" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 168px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C06</button>
+	         			  <button id="SEAT_IDX_30" class="child dis" title="C07" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 224px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C07</button>
+	         			  <button id="SEAT_IDX_31" class="child dis" title="C08" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 252px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C08</button>
+	         			  <button id="SEAT_IDX_32" class="child dis" title="C09" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 280px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C09</button>
+	         			  <button id="SEAT_IDX_33" class="child dis" title="C10" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 308px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C10</button>
+	         			  <button id="SEAT_IDX_34" class="child dis" title="C11" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 336px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C11</button>
+	         			  <button id="SEAT_IDX_35" class="child dis" title="C12" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 114px; left: 364px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">C12</button>
+	         			  
+	         			  <button id="SEAT_IDX_36" class="child dis" title="D01" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 28px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D01</button>
+	         			  <button id="SEAT_IDX_37" class="child dis" title="D02" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 56px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D02</button>
+	         			  <button id="SEAT_IDX_38" class="child dis" title="D03" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 84px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D03</button>
+	         			  <button id="SEAT_IDX_39" class="child dis" title="D04" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 112px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D04</button>
+	         			  <button id="SEAT_IDX_40" class="child dis" title="D05" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 140px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D05</button>
+	         			  <button id="SEAT_IDX_41" class="child dis" title="D06" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 168px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D06</button>
+	         			  <button id="SEAT_IDX_42" class="child dis" title="D07" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 224px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D07</button>
+	         			  <button id="SEAT_IDX_43" class="child dis" title="D08" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 252px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D08</button>
+	         			  <button id="SEAT_IDX_44" class="child dis" title="D09" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 280px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D09</button>
+	         			  <button id="SEAT_IDX_45" class="child dis" title="D10" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 308px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D10</button>
+	         			  <button id="SEAT_IDX_46" class="child dis" title="D11" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 336px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D11</button>
+	         			  <button id="SEAT_IDX_47" class="child dis" title="D12" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 142px; left: 364px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">D12</button>
+	         			  
+	         			  <button id="SEAT_IDX_48" class="child dis" title="E01" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 170px; left: 28px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E01</button>
+	         			  <button id="SEAT_IDX_49" class="child" title="E02" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 170px; left: 56px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E02</button>
+	         			  <button id="SEAT_IDX_50" class="child dis" title="E03" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 170px; left: 84px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E03</button>
+	         			  <button id="SEAT_IDX_51" class="child" title="E04" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 170px; left: 112px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E04</button>
+	         			  <button id="SEAT_IDX_52" class="child dis" title="E05" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 170px; left: 140px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E05</button>
+	         			  <button id="SEAT_IDX_53" class="child" title="E06" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 170px; left: 168px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E06</button>
+	         			  <button id="SEAT_IDX_54" class="child dis" title="E07" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 170px; left: 224px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E07</button>
+	         			  <button id="SEAT_IDX_55" class="child" title="E08" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 170px; left: 252px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E08</button>
+	         			  <button id="SEAT_IDX_56" class="child dis" title="E09" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 170px; left: 280px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E09</button>
+	         			  <button id="SEAT_IDX_57" class="child" title="E10" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 170px; left: 308px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E10</button>
+	         			  <button id="SEAT_IDX_58" class="child dis" title="E11" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 170px; left: 336px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">E11</button>
+	         			  <button id="SEAT_IDX_59" class="child" title="E12" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); top: 170px; left: 364px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle; color: rgb(255, 255, 255);">E12</button>
+	         			  
+	         			  <button id="SEAT_IDX_60" class="child" title="F01" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 198px; left: 28px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F01</button>
+	         			  <button id="SEAT_IDX_61" class="child dis" title="F02" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 198px; left: 56px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F02</button>
+	         			  <button id="SEAT_IDX_62" class="child" title="F03" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 198px; left: 84px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F03</button>
+	         			  <button id="SEAT_IDX_63" class="child dis" title="F04" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 198px; left: 112px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F04</button>
+	         			  <button id="SEAT_IDX_64" class="child" title="F05" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 198px; left: 140px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F05</button>
+	         			  <button id="SEAT_IDX_65" class="child dis" title="F06" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 198px; left: 168px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F06</button>
+	         			  <button id="SEAT_IDX_66" class="child" title="F07" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 198px; left: 224px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F07</button>
+	         			  <button id="SEAT_IDX_67" class="child dis" title="F08" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 198px; left: 252px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F08</button>
+	         			  <button id="SEAT_IDX_68" class="child" title="F09" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 198px; left: 280px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F09</button>
+	         			  <button id="SEAT_IDX_69" class="child dis" title="F10" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 198px; left: 308px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F10</button>
+	         			  <button id="SEAT_IDX_70" class="child" title="F11" style="position: absolute; background: rgb(200, 200, 200); border: 0px solid rgb(255, 255, 255); color: rgb(255, 255, 255); top: 198px; left: 336px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F11</button>
+	         			  <button id="SEAT_IDX_71" class="child dis" title="F12" disabled="" style="position: absolute; background: rgb(61, 63, 81); border: 0px solid rgb(255, 255, 255); top: 198px; left: 364px; text-align: center; width: 24px; height: 24px; display: block; vertical-align: middle;">F12</button>
+	         			  
+	         	</div>
+</body>
+</html>
